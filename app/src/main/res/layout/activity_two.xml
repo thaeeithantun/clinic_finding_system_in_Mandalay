@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:iconifiedByDefault="false"
+        android:layout_marginTop="50dp">
+
+        <requestFocus />
+    </SearchView>
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/search" />
+
+</RelativeLayout>
+</FrameLayout>

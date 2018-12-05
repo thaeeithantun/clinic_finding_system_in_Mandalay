@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">clinic_ui</string>
+    <string name="title_activity_nearest_clinic">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <color name="titletextcolor">#3F51B5</color>
+</resources>

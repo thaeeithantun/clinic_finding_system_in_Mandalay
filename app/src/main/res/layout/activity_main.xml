@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    tools:context=".MainActivity">
+
+
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/gp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_gp" />
+
+            <TextView
+                android:id="@+id/gpt"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="အေထြေထြေရာဂါ" />
+
+            <Button
+                android:id="@+id/dental"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_dental" />
+
+            <TextView
+                android:id="@+id/dentalt"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="သြားဘက္ဆိုင္ရာ" />
+
+            <Button
+                android:id="@+id/og"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_og" />
+
+            <TextView
+                android:id="@+id/ogt"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="သားဖြားမီးယပ္" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/optic"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_eye" />
+
+            <TextView
+                android:id="@+id/eyet"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="မ်က္စိအထူးကု" />
+
+            <Button
+                android:id="@+id/child"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_child" />
+
+            <TextView
+                android:id="@+id/childt"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="ကေလးအထုူးကု" />
+
+            <Button
+                android:id="@+id/ent"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_ent" />
+
+            <TextView
+                android:id="@+id/entt"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:text="နား နွာေခါင္း" />
+            <TextView
+                android:id="@+id/entt2"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="လည္ေခ်ာင္း" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/skin"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@mipmap/ic_skin" />
+            <TextView
+                android:id="@+id/skint"
+                android:layout_width="75dp"
+                android:layout_height="25dp"
+                android:text="အေရျပား" />
+
+            <Button
+                android:id="@+id/bone"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_bone" />
+            <TextView
+                android:id="@+id/bonet"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:text="အရုိးအေျကာ" />
+
+            <Button
+                android:id="@+id/stomach"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_stomach" />
+            <TextView
+                android:id="@+id/stomacht"
+                android:layout_width="90dp"
+                android:layout_height="25dp"
+                android:text="အစာအိမ္နွင့္" />
+            <TextView
+                android:id="@+id/stomacht2"
+                android:layout_width="110dp"
+                android:layout_height="30dp"
+                android:text="အူလမ္းေျကာင္း" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

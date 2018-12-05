@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:text="hour"
+            android:id="@+id/hour"
+            android:textSize="25dp"
+            />
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="+"
+                android:id="@+id/hr_plus"
+                android:textSize="12dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="-"
+                android:id="@+id/hr_minus"
+                android:textSize="12dp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:text="minute"
+            android:id="@+id/minute"
+            android:textSize="25dp"
+            />
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:text="+"
+                android:id="@+id/min_plus"
+                android:textSize="15dp"/>
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:text="-"
+                android:id="@+id/min_minus"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <RadioGroup
+                android:id="@+id/m_e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/am"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:text="AM"
+                    android:textSize="15dp" />
+
+                <RadioButton
+                    android:id="@+id/pm"
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:text="PM"
+                    android:textSize="15dp" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+        <!--<TextView
+            android:layout_width="10dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="65dp"
+            android:text="day"
+            android:id="@+id/day"
+            android:textSize="25dp"
+            />
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="d+"
+                android:id="@+id/day_plus"
+                android:textSize="12dp"/>
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:text="d-"
+                android:id="@+id/day_minus"
+                android:textSize="12dp"/>
+
+        </LinearLayout>-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:id="@+id/btn_find"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:text="Find Nearest Clinics"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</RelativeLayout>

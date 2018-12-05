@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:id="@+id/clinic_search"
+            android:background="#3F51B5"
+            android:layout_marginTop="22dp"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="Search Clinics by current time"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:id="@+id/clinic_search_custom_time"
+            android:background="#3F51B5"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="Search Clinics by user defined time"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:id="@+id/searchByClinicName"
+            android:background="#3F51B5"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="Search Clinic by clinic name"
+            />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="15dp" />
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:id="@+id/doctor_search"
+
+            android:background="#3F51B5"
+            android:textSize="18dp"
+            android:textColor="#FFFFFF"
+            android:text="Search Clinic by doctor's name"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

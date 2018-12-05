@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:textColor="#3F51B5"
+            android:textSize="20dp"
+            android:id="@+id/d_name"
+            android:text="Doctor Name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFFFFF"
+            android:textColor="#000000"
+            android:text="Clinic Name and Clinic Opening and Closing Time"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#FFFFFF"
+            android:textColor="#3F51B5"
+            android:textSize="20dp"
+            android:id="@+id/d_clinic"
+            android:text="Clinic Name"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FFFFFF"
+            android:textColor="#3F51B5"
+            android:id="@+id/d_duration"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

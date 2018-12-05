@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <TextView
+
+        android:id="@+id/myTitle"
+        android:text="Clinic Finder"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:background="@color/titletextcolor"
+        android:layout_marginTop="0dp"
+        android:textColor="#FFFFFF"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="#3F51B5"
+            android:id="@+id/n_clinic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="1st nearest clinic"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Name:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Distance: "
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Address:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="O/C Time:"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/fname"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/fdistance"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/fadd"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/ftime"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="2nd nearest clinic"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Name:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Distance: "
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Address:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="O/C Time:"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/sname"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/sdistance"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/sadd"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/stime"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="3rd nearest clinic"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            >
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Name:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Distance: "
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="Address:"
+                    />
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:text="O/C Time:"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="80dp"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/tname"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/tdistance"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/tadd"
+                    />
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="20dp"
+                    android:textColor="#3F51B5"
+                    android:textSize="15dp"
+                    android:id="@+id/ttime"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            />
+
+        <Button
+            android:id="@+id/find"
+            android:layout_width="300dp"
+            android:layout_height="62dp"
+            android:textColor="#FFFFFF"
+            android:layout_centerInParent="true"
+            android:background="#3F51B5"
+            android:text="Find on Map" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
